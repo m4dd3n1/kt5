@@ -1,0 +1,181 @@
+body{
+    background-image: url(https://mobimg.b-cdn.net/v3/fetch/e2/e28d90e081bb85bebefcb84548b5f635.jpeg);
+}
+
+h1 {
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.bicycle {
+    position: absolute;
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    top: 45%;
+    left: 50px;
+    animation: linear;
+    animation-name: bicycle;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+
+    -webkit-animation: linear;
+    -webkit-animation-name: bicycle;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+   -webkit-animation-fill-mode: forwards;
+}
+
+.main{
+    position: absolute;
+    width: 130px;
+    height: 15px;
+    border-radius: 25px;
+    background-color: grey;
+    top: -10px;
+    left: 80px;
+}
+
+.frame1{
+    position: absolute;
+    width: 70px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: grey;
+    top: 20px;
+    left: 61px;
+    transform: rotate(75deg);
+}
+
+.frame2{
+    position: absolute;
+    width: 125px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: grey;
+    top: 20px;
+    left: 90px;
+    transform: rotate(150deg); 
+}
+
+.frame3 {
+    position: absolute;
+    width: 65px;
+    height:7px;
+    border-radius: 10px;
+    background-color: grey;
+    top: 22px;
+    left: 182px;
+    transform: rotate(75deg);   
+}
+
+.frame4 {
+    position: absolute;
+    width: 80px;
+    height: 7px;
+    border-radius: 10px;
+    background-color: grey;
+    top: 22px;
+    left: 25px;
+    transform: rotate(-55deg);   
+}
+
+.frame5 {
+    position: absolute;
+    width: 60px;
+    height: 7px;
+    border-radius: 10px;
+    background-color: grey;
+    top: 52px;
+    left: 42px; 
+}
+
+.frame6 {
+    position: absolute;
+    width: 50px;
+    height:7px;
+    border-radius: 10px;
+    background-color: darkgrey;
+    top: -10px;
+    left: 181px;
+    transform: rotate(76deg);  
+}
+
+.frame7 {
+    position: absolute;
+    width: 50px;
+    height:7px;
+    border-radius: 10px;
+    background-color: darkgrey;
+    top: -32px;
+    left: 153px;  
+}
+
+.wheel1{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    width: 80px; 
+    height: 80px;
+    background: #222;
+    border-radius: 50%;
+} 
+
+.circle1{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: 50px; 
+    height: 50px;
+    background:darkgrey;
+    border-radius: 50%;
+}
+
+.wheel2{
+    position: absolute;
+    bottom: 5px;
+    left: 183px;
+    width: 80px; 
+    height: 80px;
+    background: #222;
+    border-radius: 50%;
+} 
+
+.circle2{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: 50px; 
+    height: 50px;
+    background:darkgrey;
+    border-radius: 50%;
+}
+
+@keyframes bicycle {
+    from {
+        left: -25%;
+    }
+
+    to {
+        left: calc(100vw - 320px);
+    }
+}
+
+@-webkit-keyframes bicycle {
+    from {
+        left: -25%;
+    }
+
+    to {
+        left: calc(100vw - 320px);
+    }
+}
